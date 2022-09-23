@@ -1,0 +1,130 @@
+.second-container__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.second-container__content { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.556);
+    z-index: 1;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second-container__left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.second-container__bg {
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/Tonny\ winda\ 6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second-container__title {
+    letter-spacing: 3.8px;
+    font-size: 25px;
+}
+
+.second-container__day {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.second-container__ayat {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.second-container__main-title {
+    margin-top: 35px;
+    font-size: 54px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .second-container__left-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 50px;
+    }
+
+    .second-container__ayat {
+        margin-top: 25px;
+        font-size: 21px;
+    }
+
+    .second-container__day {
+        margin-top: 25px;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .second-container__left-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 30px;
+    }
+
+    .second-container__ayat {
+        margin-top: 25px;
+        font-size: 17px;
+    }
+
+    .second-container__day {
+        margin-top: 25px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .second-container__left-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 20px;
+    }
+
+    .second-container__ayat {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .second-container__day {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; visibility: hidden; }
+    100% { opacity: 1; visibility: visible; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; }
+}

@@ -1,0 +1,45 @@
+.third-container__countdown {
+    position: relative;
+    background: url(../assets/Tonny\ winda\ 12.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 289px;
+    z-index: 0;
+}
+
+.third-container__countdown__title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;   
+    z-index: 2;
+}
+
+.third-container__countdown__sub-title {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+
+.third-container__countdown__content {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+.third-container__countdown__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.748);
+    z-index: 1;
+}

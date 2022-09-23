@@ -1,0 +1,37 @@
+.third-container__groom-bride {
+    background-color: #313131;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.third-container__groom-bride__title {
+    font-size: 42px;
+}
+
+.third-container__groom-bride__image {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px 300px 300px 300px;
+}
+
+.third-container__groom-bride__sub-title {
+    font-size: 12px;
+}
+
+.third-container__groom-bride__icon-heart > svg {
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    fill: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,91 @@
+.third-container__container {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.third-container__ayat {
+    background-color: #242424;
+    color: white;
+    width: 100%;
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.third-container__ayat__box {
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 10px;
+}
+
+.third-container__ayat__box__title {
+    padding: 10px;
+    background: #fff;
+    font-size: 30px;
+    letter-spacing: 3.8px;
+}
+
+.third-container__ayat__box__sub-title {
+    padding: 10px;
+    background: #fff;
+    font-size: 12px
+}
+
+.third-container__ayat__box__img  {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.third-container__true-love {
+    position: relative;
+    background: url(../assets/Tonny\ winda\ 38.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 289px;
+    z-index: 0;
+}
+
+.third-container__true-love__title {
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3.8px;
+    z-index: 2;
+}
+
+.third-container__true-love__sub-title {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+
+.third-container__true-love__content {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+.third-container__true-love__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.466);
+    z-index: 1;
+}

@@ -1,0 +1,77 @@
+.third-container__info {
+    padding: 40px 20px;
+    background: url(../assets/Tonny\ winda\ 29.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third-container__info2 {
+    padding: 40px 20px;
+    background: url(../assets/Tonny\ winda\ 34.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third-container__info__shadow {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.747);
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+.third-container__info__shadow2 {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+.third-container__info__shadow > svg {
+    display: block;
+    margin: auto;
+    fill: #fff;
+    width: 41px;
+    height: 41px;
+}
+
+.third-container__info__shadow2 > svg {
+    display: block;
+    margin: auto;
+    fill: #fff;
+    width: 41px;
+    height: 41px;
+}
+
+.third-container__info__shadow__holy_days, .third-container__info__shadow__reception_days {
+    font-size: 20px;
+}
+
+.third-container__info__shadow__holy_days-time, .third-container__info__shadow__reception_days-time {
+    font-size: 12px;
+}
+
+.third-container__info__shadow__holy_days-button, .third-container__info__shadow__reception_days-button, .third-container__info__shadow__gift_button{
+    background: rgb(36, 36, 36);
+    text-align: center;
+    width: 140px;
+    height: 39px;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.third-container__info__shadow__holy_image {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 300px 300px 0px 0px;
+    margin-top: 10px
+}
